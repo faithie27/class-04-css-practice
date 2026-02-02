@@ -1,7 +1,7 @@
-
 body {
     background-color: #99c9a5;
     color: #0d0d0d;
+    font-family: monospace
 }
 
 /* Center text utility class */
@@ -9,4 +9,13 @@ body {
     text-align: center;
 }
 
+h1 {
+    border: 2px solid black;
+    border-radius: 15px;
+}
 
+blockquote {
+    border-left-style: dashed;
+    border-left-color: pink;
+    border-left-width: 5px;
+}
